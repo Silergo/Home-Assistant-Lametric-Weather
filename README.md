@@ -10,7 +10,8 @@ Home Assistant Lametric Weather Manual.
   In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
-Thats where you need DDNS. If you server behind reverse proxy don't forget to add in `configuration.yaml`:![16](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/82b1fb6f-b2e5-4e6e-82c1-d273cc20ab63)  
+Thats where you need DDNS. If you server behind reverse proxy don't forget to add in `configuration.yaml`:  
+![16](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/82b1fb6f-b2e5-4e6e-82c1-d273cc20ab63)  
 **Important note: In Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://example.duckdns.org` from duckdns, you "Home Assistant URL" should looks like: `http://example.duckdns.org` AND NOT `http://example.duckdns.org/`**
   
   2. **Home Assistant token**
