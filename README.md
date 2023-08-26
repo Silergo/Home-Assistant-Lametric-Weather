@@ -20,6 +20,5 @@ To get your token, go to profile in Home Assistant server, scroll to the bottom 
 
 ![5](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/92712442-4dd7-4e32-871e-11a6cd9371c1) ![6](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/1579961c-1f61-41dc-8304-d3306638d3ae)  
 Copy and paste it to the appropriate line in Lametric app.
-
-
+#### And thats all!
 
