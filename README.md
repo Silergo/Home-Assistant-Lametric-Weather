@@ -5,7 +5,9 @@ Home Assistant Lametric Weather Manual.
   2. Any DDNS (Dynamic DNS) for your Home Assistant server ([Dynu](https://www.dynu.com/), [Duckdns](https://www.duckdns.org/), [NoIp](https://www.noip.com/), etc).
 ### Installation:
   
-  Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled Weather Integration from [Met.no](https://www.met.no/). Also supported OpenWeatherMap, AccuWeather, Gismeteo and Yandex. For Yandex and Gismeteo you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).
+Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled Weather Integration from [Met.no](https://www.met.no/). Also supported OpenWeatherMap, AccuWeather, Gismeteo and Yandex. For Yandex and Gismeteo you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).
   
-  In Lametric app you need to enter two strings:
-    1. Home Assistant URL. Thats where you need DDNS.
+In Lametric app you need to enter two strings:
+  1. Home Assistant URL. Thats where you need DDNS.  
+    **Important note: In Lametric app you shouldn't put "/" at the end of URL. For example if you have DDNS http://example.duckdns.org from duckdns, you Home Assistant URL should look like: http://example.duckdns.org AND NOT http://example.duckdns.org/**
+  2. 56546
