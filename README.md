@@ -7,3 +7,4 @@ Home Assistant Lametric Weather Manual.
   Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled Weather Integration from [Met.no](https://www.met.no/). Also supported OpenWeatherMap, AccuWeather, Gismeteo and Yandex. For Yandex and Gismeteo you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).
   In Lametric app you need to enter two strings:
     1. Home Assistant URL. Thats where you need DDNS.
+![14](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/dc56a8a0-538f-426f-bcf9-b35969ec5baa)
