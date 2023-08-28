@@ -27,3 +27,6 @@ To get your token, go to the profile in Home Assistant server, scroll to the bot
 Copy and paste it to the appropriate line in the Lametric app.
 #### And thats all!
 
+### Tips:
+If you want to change
+
