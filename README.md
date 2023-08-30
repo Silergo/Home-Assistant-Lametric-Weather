@@ -24,7 +24,7 @@ Replace "my_reverse_proxy_ip" to the ip of you reverse proxy server.
 
 To get your token, go to the profile in Home Assistant server, scroll to the very bottom and click on "Create Token":
 
-![5](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/92712442-4dd7-4e32-871e-11a6cd9371c1) ![6](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/1579961c-1f61-41dc-8304-d3306638d3ae)  
+![5](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f9f70943-6a18-49a6-93eb-d380981756a6)  ![6](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/8d63daf5-25ca-4761-9dd6-d25fa157efa4)  
 Copy and paste it to the appropriate line in the Lametric app.
 #### And thats all!
 
