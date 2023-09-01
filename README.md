@@ -1,8 +1,8 @@
 # Home-Assistant-Lametric-Weather
 Home Assistant Lametric Weather Manual.
 ### Requirments:
-  1. [Home Assistant server](https://www.home-assistant.io/installation/) (HA).
-  2. Any DDNS (Dynamic DNS) for your Home Assistant server ([Dynu](https://www.dynu.com/), [Duckdns](https://www.duckdns.org/), [NoIp](https://www.noip.com/), etc).
+  1. [Home Assistant server](https://www.home-assistant.io/installation/).
+  2. *Optional: any DDNS (Dynamic DNS) for your Home Assistant server ([Dynu](https://www.dynu.com/), [Duckdns](https://www.duckdns.org/), [NoIp](https://www.noip.com/), etc).*
 ### Installation:
   
   Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled Weather Integration from [Met.no](https://www.met.no/). Also supported OpenWeatherMap, AccuWeather, Gismeteo and Yandex. For Yandex and Gismeteo you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).   
@@ -10,14 +10,13 @@ Home Assistant Lametric Weather Manual.
   In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
-Thats where you need DDNS. If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
+Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
 <pre><code>http:
   use_x_forwarded_for: true
   trusted_proxies:
     - my_reverse_poxy_ip
 </code></pre>
-Replace "my_reverse_proxy_ip" with ip of you reverse proxy server.  
-*You can also just forward port of your Home Assistant server (default port is 8123) instead of DDNS, but it's not very safety. In that case "Home Assistant URL" will be an external IP of you router, including port.*  
+Replace "my_reverse_proxy_ip" with ip of you reverse proxy server.    
 **Important note: In Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://example.duckdns.org`, you "Home Assistant URL" should looks like: `http://example.duckdns.org` AND NOT `http://example.duckdns.org/`**
   
   2. **Home Assistant token**
