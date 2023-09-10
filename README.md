@@ -10,14 +10,14 @@ Home Assistant Lametric Weather Manual.
   In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
-Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port. Although, this way not very safety.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
+Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port. Although, this way is not very safety.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
 <pre><code>http:
   use_x_forwarded_for: true
   trusted_proxies:
     - my_reverse_proxy_ip
 </code></pre>
 Replace "my_reverse_proxy_ip" with ip of you reverse proxy server.    
-**Important note: In Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://example.duckdns.org`, you "Home Assistant URL" should looks like: `http://example.duckdns.org` AND NOT `http://example.duckdns.org/`**
+**Important note: In the Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://example.duckdns.org`, you "Home Assistant URL" should looks like: `http://example.duckdns.org` AND NOT `http://example.duckdns.org/`**
   
   2. **Home Assistant token**
 
