@@ -9,15 +9,15 @@ Home Assistant Lametric Weather Manual.
   
   ***Make sure that the entity ID's of Weather Integrations match the appropriate ID's from the list below:***  
   <ul>
-  <li><b>Meteorologisk institutt (Met.no):</b> weather.forecast_home_assistant</li>
-  <li><b>OpenWeatherMap:</b> weather.openweathermap</li>
-  <li><b>AccuWeather:</b> weather.home_assistant</li>
-  <li><b>Tomorrow.io:</b> weather.tomorrow_io_home_assistant_daily</li>
-  <li><b>SMHI:</b> weather.smhi_weather</li>
-  <li><b>Yandex:</b> weather.yandex_weather</li>
-  <li><b>Gismeteo:</b> weather.gismeteo</li>
-  <li><b>Pirate Weather:</b> weather.pirateweather</li>
-  <li><b>Weatherbit:</b> weather.weatherbit</li>
+  ><li><b>Meteorologisk institutt (Met.no):</b> weather.forecast_home_assistant</li>
+  ><li><b>OpenWeatherMap:</b> weather.openweathermap</li>
+  ><li><b>AccuWeather:</b> weather.home_assistant</li>
+  ><li><b>Tomorrow.io:</b> weather.tomorrow_io_home_assistant_daily</li>
+  ><li><b>SMHI:</b> weather.smhi_weather</li>
+  ><li><b>Yandex:</b> weather.yandex_weather</li>
+  ><li><b>Gismeteo:</b> weather.gismeteo</li>
+  ><li><b>Pirate Weather:</b> weather.pirateweather</li>
+  ><li><b>Weatherbit:</b> weather.weatherbit</li>
   </ul>
   
   **To find and edit that ID's look into the Weather Integration settings. For example:**  
