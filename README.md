@@ -8,8 +8,8 @@ Home Assistant Lametric Weather Manual.
   Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled [Weather Integration](https://www.home-assistant.io/integrations/met) from [Met.no](https://www.met.no/). Also supported [OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap), [AccuWeather](https://www.home-assistant.io/integrations/accuweather), [Tomorrow.io](https://www.home-assistant.io/integrations/tomorrowio), [SMHI](https://www.home-assistant.io/integrations/smhi), [Gismeteo](https://github.com/Limych/ha-gismeteo), [Yandex](https://github.com/IATkachenko/HA-YandexWeather), [Pirate Weather](https://github.com/alexander0042/pirate-weather-ha) and [Weatherbit](https://github.com/briis/weatherbit). For Yandex, Gismeteo, Pirate Weather and Weatherbit you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).  
   
   #### *Make sure that the entity ID's of Weather Integrations match the appropriate ID's from the list below:*    
-  &nbsp;> - **Meteorologisk institutt (Met.no):** weather.forecast_home_assistant
-  &nbsp;> - **OpenWeatherMap:** weather.openweathermap
+  &nbsp;&nbsp;&nbsp;> - **Meteorologisk institutt (Met.no):** weather.forecast_home_assistant
+  &nbsp;&nbsp;&nbsp;> - **OpenWeatherMap:** weather.openweathermap
   &nbsp;> - **AccuWeather:** weather.home_assistant
   &nbsp;> - **Tomorrow.io:** weather.tomorrow_io_home_assistant_daily
   &nbsp;> - **SMHI:** weather.smhi_weather
