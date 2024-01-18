@@ -35,7 +35,7 @@ Thats where you need DDNS. ***But instead of that, you can just forward port of 
     - my_reverse_proxy_ip
 </code></pre>
 Replace "my_reverse_proxy_ip" with ip of you reverse proxy server.    
-**Important note: In the Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://example.duckdns.org`, you "Home Assistant URL" should looks like: `http://example.duckdns.org` AND NOT `http://example.duckdns.org/`**
+**Important note: In the Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://home-assistant.duckdns.org`, you "Home Assistant URL" should looks like: `http://home-assistant.duckdns.org` AND NOT `http://home-assistant.duckdns.org/`**
   
   2. **Home Assistant token**
 
