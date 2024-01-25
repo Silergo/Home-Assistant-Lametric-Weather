@@ -26,7 +26,7 @@ Home Assistant Lametric Weather Manual.
 
 *Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
-
+<br>
 In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
@@ -47,6 +47,6 @@ To get your token, go to the profile in Home Assistant server, scroll to the ver
 Copy and paste it to the appropriate line in the Lametric app.
 #### And thats all!
 
-### Tips:
+### Tip:
 If you want to change celcius to fahrenheit, or pressure and wind speed units, you can do it in weather integration settings. For example:  
 ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/71de1c27-ca16-4dd6-9e01-865239ef05d8)  ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/00ed7182-3808-4799-9f32-8cad3903e4e4)  ![19](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/7af35af8-f30a-4784-9101-b4ea5956b6a0)  ![20](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/be6f74e4-60ec-49c8-9eab-5bf85d2ae761)  ![21](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/ca7ec3a5-136c-41c1-b8f5-468deba491b7)  ![22](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/c4a6992c-0cec-47bc-b373-c9eaac92b05a)
