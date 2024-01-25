@@ -26,9 +26,8 @@ Home Assistant Lametric Weather Manual.
 
 *Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
-  
-  
-  In Lametric app you need to enter two strings:  
+
+In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
 Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port. Although, this way is not very safety.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
