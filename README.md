@@ -27,6 +27,7 @@ Home Assistant Lametric Weather Manual.
 *Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
   
+  
   In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
