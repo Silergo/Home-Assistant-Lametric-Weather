@@ -20,14 +20,8 @@ Home Assistant Lametric Weather Manual.
   
   **To find and edit that ID's name, look into the Weather Integration settings. For example:**  
   ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f4b1ee45-5a6e-489d-92ba-88e69f5e2a52) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/5e24b3d2-573a-4a55-ad6a-01b9d01a0823) ![40](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/7e72cbae-785a-4679-842d-912cab10d26a) ![41](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/dbf45f71-4fdc-4db6-b5f6-704900f9321b) ![42](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/b12eda8d-83cc-4fa1-a13a-ed357c8dffcb) ![43](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/78888698-7588-402f-90c0-1571fd941409)
-  
-  *"Precipitation Warning" option shows alert about approaching rain or snow. Lametric takes closest forecast from chosen Weather Integration and if its any kind of rain or snow, it will show the message in selected language (English, French, German, Japanese, Ukrainian, Spanish or Russian). In AccuWeather you must enable forecast in options, but this will sacrifice 40 minutes of data refreshment rate:*  
-  ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f0d0008e-42fd-4d63-ad41-8deea56ab614) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/596f0ad8-ab5b-4108-a280-c00869d1b55c) ![37](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/018d0f93-8b92-4d11-b56f-58a40aef11d1) ![38](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/799fdecf-3ef9-4d00-b572-a471e4231c26) ![39](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/4a7e0b5d-6e85-4d90-8ab4-8a574aaef6b4)
-
-*Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
 <br/>
-
 In Lametric app you need to enter two strings:  
   1. **Home Assistant URL**
 
@@ -47,6 +41,11 @@ To get your token, go to the profile in Home Assistant server, scroll to the ver
 ![5](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f9f70943-6a18-49a6-93eb-d380981756a6)  ![6](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/8d63daf5-25ca-4761-9dd6-d25fa157efa4)  
 Copy and paste it to the appropriate line in the Lametric app.
 #### And thats all!
+
+ *"Precipitation Warning" option shows alert about approaching rain or snow. Lametric takes closest forecast from chosen Weather Integration and if its any kind of rain or snow, it will show the message in selected language (English, French, German, Japanese, Ukrainian, Spanish or Russian). In AccuWeather you must enable forecast in options, but this will sacrifice 40 minutes of data refreshment rate:*  
+  ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f0d0008e-42fd-4d63-ad41-8deea56ab614) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/596f0ad8-ab5b-4108-a280-c00869d1b55c) ![37](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/018d0f93-8b92-4d11-b56f-58a40aef11d1) ![38](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/799fdecf-3ef9-4d00-b572-a471e4231c26) ![39](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/4a7e0b5d-6e85-4d90-8ab4-8a574aaef6b4)
+
+*Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
 ### Tip:
 If you want to change celcius to fahrenheit, or pressure and wind speed units, you can do it in weather integration settings. For example:  
