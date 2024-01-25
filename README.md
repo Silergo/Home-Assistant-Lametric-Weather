@@ -24,6 +24,7 @@ Home Assistant Lametric Weather Manual.
 <br/>
 In Lametric app you need to enter two strings:
 
+ 
   1. **Home Assistant URL**
 
 Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port. Although, this way is not very safety.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
