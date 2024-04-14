@@ -1,22 +1,20 @@
 # Home-Assistant-Lametric-Weather
 Home Assistant Lametric Weather Manual.
 # Requirments
-  1. [Home Assistant server](https://www.home-assistant.io/installation/) reachable from the internet.
-  2. *Optional: any DDNS (Dynamic DNS) for your Home Assistant server ([Dynu](https://www.dynu.com/), [Duckdns](https://www.duckdns.org/), [NoIp](https://www.noip.com/), etc).*
+  [Home Assistant server](https://www.home-assistant.io/installation/) reachable from the internet.
+  
 # Installation
   
-  Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled [Weather Integration](https://www.home-assistant.io/integrations/met) from [Met.no](https://www.met.no/). Also supported [OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap), [AccuWeather](https://www.home-assistant.io/integrations/accuweather), [Tomorrow.io](https://www.home-assistant.io/integrations/tomorrowio), [SMHI](https://www.home-assistant.io/integrations/smhi) (only for Sweden), [Gismeteo](https://github.com/Limych/ha-gismeteo), [Yandex](https://github.com/IATkachenko/HA-YandexWeather), [Pirate Weather](https://github.com/alexander0042/pirate-weather-ha) and [Weatherbit](https://github.com/briis/weatherbit). For Yandex, Gismeteo, Pirate Weather and Weatherbit you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).  
+  Basicly, you only need Home Assistant server with any Weather Integration that supported. By default Home Assistant have preinstalled [Weather Integration](https://www.home-assistant.io/integrations/met) from [Met.no](https://www.met.no/). Also supported [OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap), [AccuWeather](https://www.home-assistant.io/integrations/accuweather), [SMHI](https://www.home-assistant.io/integrations/smhi) (only for Sweden), [Gismeteo](https://github.com/Limych/ha-gismeteo), [Yandex](https://github.com/IATkachenko/HA-YandexWeather) and [Pirate Weather](https://github.com/alexander0042/pirate-weather-ha). For Yandex, Gismeteo, Pirate Weather and Weatherbit you need to install [HACS](https://hacs.xyz/) (biggest community store with custom integrations).  
   
 ***Make sure that the entity ID's of Weather Integrations match the appropriate ID's name from the list below:***   
   > - **Meteorologisk institutt (Met.no):** weather.forecast_home_assistant
   > - **OpenWeatherMap:** weather.openweathermap
-  > - **AccuWeather:** weather.home_assistant
-  > - **Tomorrow.io:** weather.tomorrow_io_home_assistant_daily
+  > - **AccuWeather:** weather.home_assistant  
   > - **SMHI:** weather.smhi_weather
   > - **Yandex:** weather.yandex_weather
   > - **Gismeteo:** weather.gismeteo
   > - **Pirate Weather:** weather.pirateweather
-  > - **Weatherbit:** weather.weatherbit 
   
   **To find and edit that ID's name, look into the Weather Integration settings. For example:**  
   ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f4b1ee45-5a6e-489d-92ba-88e69f5e2a52) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/5e24b3d2-573a-4a55-ad6a-01b9d01a0823) ![40](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/7e72cbae-785a-4679-842d-912cab10d26a) ![41](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/dbf45f71-4fdc-4db6-b5f6-704900f9321b) ![42](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/b12eda8d-83cc-4fa1-a13a-ed357c8dffcb) ![43](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/78888698-7588-402f-90c0-1571fd941409)
@@ -28,14 +26,10 @@ In the Lametric app you need to enter two strings:
   
   1. **Home Assistant URL**
 
-Thats where you need DDNS. ***But instead of that, you can just forward port of your Home Assistant server (default port is 8123) in router settings. In that case "Home Assistant URL" will be an external IP of you router, including port. Although, this way is not very safety.*** If you server behind reverse proxy, don't forget to add in `configuration.yaml`: 
-<pre><code>http:
-  use_x_forwarded_for: true
-  trusted_proxies:
-    - my_reverse_proxy_ip
-</code></pre>
-Replace "my_reverse_proxy_ip" with ip of you reverse proxy server.    
-**Important note: In the Lametric app you should NOT put "/" at the end of URL. For example, if you have DDNS `http://home-assistant.duckdns.org`, you "Home Assistant URL" should looks like: `http://home-assistant.duckdns.org` AND NOT `http://home-assistant.duckdns.org/`**
+Enter **external** IP of you router with port, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - **external** IP of you router. Don't forget to forward 8123 port in router settings. If you want more security, add firewall rules in router settings that allows only connections from port 8123 and ip range: 77.222.40.0-77.222.43.255. It should look like this:
+![44](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f770b7f8-95bc-42ac-9585-e0e83195233e)
+But keep in mind, that if you have another external connection to you home assistant server, you should add ip of that connection to firewall allowing rule.   
+**Important note: In the Lametric app you should NOT put "/" at the end of URL. You "Home Assistant URL" should looks like: `http://xxx.xxx.xxx.xxx:8123` AND NOT `http://xxx.xxx.xxx.xxx:8123/`**
   
   2. **Home Assistant token**
 
