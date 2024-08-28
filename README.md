@@ -1,7 +1,7 @@
 # Home-Assistant-Lametric-Weather
 Home Assistant Lametric Weather Manual.
 # Requirments
-  [Home Assistant server](https://www.home-assistant.io/installation/) reachable from the internet.
+  [Home Assistant server](https://www.home-assistant.io/installation/) **(version 2024.8.0 or higher)** reachable from the internet.
   
 # Installation
   
@@ -45,9 +45,8 @@ Copy and paste it to the appropriate line in the Lametric app.
   > - "Pressure" - show pressure from chosen integration.
   > - "Humidity" - show humidity from chosen integration.
   > - "Windspeed" - show windspeed from chosen integration.
-  > - "Forecast temperature" - show closest temperature from integration forecast, except for OpenWeatherMap and AccuWeather. For OpenWeatherMap, it takes third forecast temperature and for AccuWeather, you must enable "Weather Forecast" in the integration settings.
-  3.  **Precipitation Warning**: this option shows alert about approaching rain or snow. Lametric takes closest forecast from chosen Weather Integration and if its any kind of rain or snow, it will show the message in selected language (English, French, German, Japanese, Ukrainian, Spanish or Russian). In AccuWeather you must enable forecast in options, but this will sacrifice 40 minutes of data refreshment rate:*  
-  ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f0d0008e-42fd-4d63-ad41-8deea56ab614) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/596f0ad8-ab5b-4108-a280-c00869d1b55c) ![37](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/018d0f93-8b92-4d11-b56f-58a40aef11d1) ![38](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/799fdecf-3ef9-4d00-b572-a471e4231c26) ![39](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/4a7e0b5d-6e85-4d90-8ab4-8a574aaef6b4)
+  > - "Forecast temperature" - show closest temperature from integration forecast.
+  3.  **Precipitation Warning**: this option shows alert about approaching rain or snow. Lametric takes closest forecast from chosen Weather Integration and if its any kind of rain or snow, it will show the message in selected language (English, French, German, Japanese, Ukrainian, Spanish or Russian).
 
 *Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
 
