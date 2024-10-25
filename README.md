@@ -34,7 +34,7 @@ But keep in mind, that if you have another external connection to you home assis
   
   2. **HA token**
 
-To get your token, go to the profile in Home Assistant server, scroll to the very bottom and click on "Create Token":
+To get your token, go to the profile in Home Assistant server, choose "Security" tab, scroll to the very bottom and click on "Create Token":
 
 ![65](https://github.com/user-attachments/assets/8c1da887-892b-48cc-8bf0-8d042ba52592)  
 Copy and paste it to the appropriate line in the Lametric app.
