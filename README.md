@@ -36,7 +36,7 @@ But keep in mind, that if you have another external connection to you home assis
 
 To get your token, go to the profile in Home Assistant server, scroll to the very bottom and click on "Create Token":
 
-![5](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f9f70943-6a18-49a6-93eb-d380981756a6)  ![6](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/8d63daf5-25ca-4761-9dd6-d25fa157efa4)  
+![65](https://github.com/user-attachments/assets/8c1da887-892b-48cc-8bf0-8d042ba52592)  
 Copy and paste it to the appropriate line in the Lametric app.
 #### And thats all!
 
