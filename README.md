@@ -15,7 +15,8 @@ Home Assistant Lametric Weather Manual.
   > - **Yandex:** weather.yandex_weather
   > - **Gismeteo:** weather.gismeteo
   > - **Pirate Weather:** weather.pirateweather
-  
+  > - **WeatherAPI:** weather.weatherapi_weatherapi
+ 
   **To find and edit that ID's name, look into the Weather Integration settings. For example:**  
   ![17](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f4b1ee45-5a6e-489d-92ba-88e69f5e2a52) ![18](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/5e24b3d2-573a-4a55-ad6a-01b9d01a0823) ![40](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/7e72cbae-785a-4679-842d-912cab10d26a) ![41](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/dbf45f71-4fdc-4db6-b5f6-704900f9321b) ![42](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/b12eda8d-83cc-4fa1-a13a-ed357c8dffcb) ![43](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/78888698-7588-402f-90c0-1571fd941409)
 
@@ -24,14 +25,14 @@ In the Lametric app you need to enter two strings:
 <br/>
 <br/>
   
-  1. **Home Assistant URL**
+  1. **HA URL**
 
 Enter **external** IP of you router with port, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - **external** IP of you router and 8123 - Home Assistant server port. Don't forget to forward 8123 port in router settings. If you want more security, add firewall rules in router settings that allows only connections from port 8123 and ip range: 77.222.40.0-77.222.43.255. It should look like this:
 ![44](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f770b7f8-95bc-42ac-9585-e0e83195233e)
 But keep in mind, that if you have another external connection to you home assistant server, you should add ip of that connection to firewall allowing rule.   
 **Important note: In the Lametric app you should NOT put "/" at the end of URL. You "Home Assistant URL" should looks like: `http://xxx.xxx.xxx.xxx:8123` AND NOT `http://xxx.xxx.xxx.xxx:8123/`**
   
-  2. **Home Assistant token**
+  2. **HA token**
 
 To get your token, go to the profile in Home Assistant server, scroll to the very bottom and click on "Create Token":
 
