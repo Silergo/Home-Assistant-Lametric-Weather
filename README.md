@@ -1,7 +1,7 @@
 # Home-Assistant-Lametric-Weather
 Home Assistant Lametric Weather Manual.
 # Requirments
-  [Home Assistant server](https://www.home-assistant.io/installation/) **(version 2024.8.0 or higher)** reachable from the internet.
+  [Home Assistant server](https://www.home-assistant.io/installation/) **(version 2024.8.0 or higher)** REACHABLE from the internet.
   
 # Installation
   
