@@ -49,7 +49,7 @@ Copy and paste it to the appropriate line in the Lametric app.
   > - "Forecast temperature" - show closest temperature from integration forecast.
   3.  **Precipitation Warning**: this option shows alert about approaching rain or snow. Lametric takes closest forecast from chosen Weather Integration and if its any kind of rain or snow, it will show the message in selected language (English, French, German, Japanese, Ukrainian, Spanish or Russian).
 
-*Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your** weather information, until integration becomes available again.* 
+*Also, app save **last** value of temperature, state icon and forecast, so if weather integration will become unavailable, you'll still be able to see **your last** weather information, until integration becomes available again.* 
 
 ### Tip
 If you want to change celcius to fahrenheit, or pressure and wind speed units, you can do it in weather integration settings. For example:  
