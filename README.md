@@ -27,7 +27,7 @@ In the Lametric app you need to enter two strings:
   
   1. **HA URL**
 
-Enter **IP address with port or domain name of your Home Assistant server**, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - IP address of you Home Assistant server and 8123 - Home Assistant server port. If your Home Assistant server is behind router, then **HA URL** is **external** IP of you router with port, it should look like above: http://xxx.xxx.xxx.xxx:8123, but xxx.xxx.xxx.xxx - **external** IP of you router and 8123 - Home Assistant server port. **Don't forget to forward 8123 port to your Home Assistant server in router settings**.   
+Enter **IP address with port or domain name of your Home Assistant server**, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - IP address of you Home Assistant server and 8123 - Home Assistant server port. If your Home Assistant server is behind router, then **HA URL** is **external** IP of you router with port, it should look like above: http://xxx.xxx.xxx.xxx:8123, but xxx.xxx.xxx.xxx - **external** IP of you router and 8123 - Home Assistant server port. Don't forget to forward 8123 port to your Home Assistant server in router settings.   
 **Important note: In the Lametric app you should NOT put "/" at the end of URL. You "HA URL" should looks like: `http://xxx.xxx.xxx.xxx:8123` AND NOT `http://xxx.xxx.xxx.xxx:8123/`**
   
   2. **HA token**
