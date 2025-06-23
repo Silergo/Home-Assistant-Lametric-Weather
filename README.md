@@ -27,9 +27,7 @@ In the Lametric app you need to enter two strings:
   
   1. **HA URL**
 
-Enter **IP address with port or domain name of your Home Assistant server**, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - IP address of you Home Assistant server and 8123 - Home Assistant server port. If your Home Assistant server is behind router, then **HA URL** is **external** IP of you router with port, it should look like above: http://xxx.xxx.xxx.xxx:8123, but xxx.xxx.xxx.xxx - **external** IP of you router and 8123 - Home Assistant server port. **Don't forget to forward 8123 port to your Home Assistant server in router settings**. If you want more security, add firewall rules in router settings that allows only connections from port 8123 and ip range: 77.222.40.0-77.222.43.255. It should look like this:
-![44](https://github.com/Silergo/Home-Assistant-Lametric-Weather/assets/32046715/f770b7f8-95bc-42ac-9585-e0e83195233e)
-But keep in mind, that if you have another external connection to you home assistant server, you should add ip of that connection to firewall allowing rule.   
+Enter **IP address with port or domain name of your Home Assistant server**, it should look like this: http://xxx.xxx.xxx.xxx:8123, where xxx.xxx.xxx.xxx - IP address of you Home Assistant server and 8123 - Home Assistant server port. If your Home Assistant server is behind router, then **HA URL** is **external** IP of you router with port, it should look like above: http://xxx.xxx.xxx.xxx:8123, but xxx.xxx.xxx.xxx - **external** IP of you router and 8123 - Home Assistant server port. **Don't forget to forward 8123 port to your Home Assistant server in router settings**.   
 **Important note: In the Lametric app you should NOT put "/" at the end of URL. You "HA URL" should looks like: `http://xxx.xxx.xxx.xxx:8123` AND NOT `http://xxx.xxx.xxx.xxx:8123/`**
   
   2. **HA token**
